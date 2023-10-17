@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "29942e64-397a-46e8-96dd-464712af8267",
+		"name": "test-opswat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16091144"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8084/scan-file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "samplefiel.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8084/scan-file",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"scan-file"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

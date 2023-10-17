@@ -1,0 +1,8 @@
+server:
+  port: 8084
+
+meta:
+  file-upload-url: https://api.metadefender.com/v4/file
+  hash-lookup-url: https://api.metadefender.com/v4/hash/
+  result-lookup-url: https://api.metadefender.com/v4/file/
+  api-key: 49d3a56b2da76c5980c044cc7c54322c
